@@ -22,7 +22,7 @@ async function batchApi(arr, url, config) {
       async () => {
         try {
           await axios
-            // This URL should be modified as necessary.
+            // This URL should be modified as necessary. Config can include any headers like Auth, content-type, etc.
             .get(`${url}`, config)
             .then((res) => console.log(res.data.email === item.account_name ? 'valid' : 'invalid'))
         } catch (error) {
