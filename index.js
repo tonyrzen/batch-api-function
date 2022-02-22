@@ -34,7 +34,7 @@ async function batchApi(arr, url, config) {
     // increment the delay
     delay += increment;
 
-    // ;insert new promise into the promise array
+    // insert new promise into the promise array
     promises.push(call);
   });
 
