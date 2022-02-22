@@ -1,6 +1,7 @@
 const axios = require('axios');
 const data = require('./data');
-// Import what you need here from the batchVariables file that you create
+// Import what you need here from the batchVariables file that you create.
+// See fakeBatchVariables.js for examples.
 
 
 // Set the initial delay and increment dependant on rate-limiting
