@@ -1,0 +1,8 @@
+node_modules
+
+# Don't include any important secrets
+batchVariables.js
+
+# Don't include any sensitive data
+data.js
+
